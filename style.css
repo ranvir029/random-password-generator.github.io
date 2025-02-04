@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #c5e8e9;
+    
+}
+
+.container {
+    width: 26vw;
+    background: white;
+    min-height: 70vh;
+    border: none;
+    border-radius: 22px;
+}
+
+.container h2 {
+    border: none;
+    border-radius: 19px;
+    font-size: 1.6em;
+    padding: 1rem 1.5rem;
+    box-shadow: -1px -2px 7px gray;
+}
+
+#Password_generator_space {
+    width: 23vw;
+    height: 6vh;
+    margin-left: 1.3rem;
+    margin-top: 1.2rem;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.22rem;
+    font-weight: bold;
+    letter-spacing: 2.3px;
+}
+
+#icon {
+    margin: 0rem -2rem;
+    cursor: pointer;
+}
+
+.password_length {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+    margin-top: 1.7rem;
+}
+
+#length {
+    margin-left: 1.4rem;
+}
+
+#password_length_counter {
+    margin-right: 1.4em;
+}
+
+.password_range {
+    display: flex;
+    margin-left: 1.4rem;
+    margin-top: 0.5rem;
+}
+
+#range_counter {
+    width: 23vw;
+}
+
+.password_Setting {
+    margin-left: 1.4rem;
+    margin-top: 0.2rem;
+}
+
+#password_Setting_content {
+    font-size: 1.2rem;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.8rem;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.right_options {
+    margin-right: 1rem;
+}
+
+#setting_values {
+    padding: 0.3em 0em;
+}
+
+#btn {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    padding: 0.6rem 0.9rem;
+    border: none;
+    border-radius: 10px;
+    background: #ff2e2efa;
+    color: white;
+    cursor: pointer;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation_bar {
+    margin-top: 1em;
+    height: 1vh;
+    background: yellow;
+    width: 23vw;
+    margin-left: 1.4rem;
+    border: none;
+    border-radius: 36px;
+}
+
+.options .left_options:first-child {
+    pointer-events: none;
+}
+
+.options input {
+    opacity: 0.7;
+}
+
+.password_Setting .options #setting_values {
+    display: flex;
+    width: calc(100% / 2);
+    margin-bottom: 0.2rem;
+}
+
+#setting_values label {
+    margin-left: 0.5rem;
+    cursor: pointer;
+
+}
+
+#setting_values input {
+    cursor: pointer;
+}
+
+#weak {
+    width: 20%;
+    background: rgb(254, 46, 46);
+
+}
+
+#medium {
+    width: 50%;
+    background: rgb(255, 255, 37);
+}
+
+#medium-strong {
+    width: 65%;
+    background-color: rgb(136, 255, 103);
+}
+
+#strong {
+    width: 89%;
+    background: rgb(16, 252, 16);
+}
+
+#paste_icon {
+    display: none;
+    position: sticky;
+    margin-top: -2rem;
+    margin-left: 22rem;
+    cursor: pointer;
+}
+
+.password_strength {
+    margin-left: 1.4rem;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;;
+}
+#strength{
+   font-weight: 600;     
+}
+@media (max-width:1174px) {
+    #btn{
+         margin-top: 1rem;
+    }
+    .password_Setting .options #setting_values {
+        display: flex;
+        margin-left: 2rem;
+      }
+      .container{
+         height: 70vh;
+         width: 33vw;
+         
+      }
+      #Password_generator_space{
+        font-size: 1.2rem;
+        width:29vw;
+      }
+      #range_counter {
+        width: 29vw;
+      }
+}
+
+@media (max-width:992px) {
+    .container{
+        height: 70vh;
+        width: 35vw;
+
+     }
+     #Password_generator_space{
+        font-size: 1.2rem;
+        width:30vw;
+      }
+      #range_counter {
+        width: 30vw;
+      }
+}
+@media (max-width:888px) {
+    .container{
+        height: 70vh;
+        width: 40vw;
+
+     }
+     #Password_generator_space{
+        font-size: 1.2rem;
+        width:35vw;
+      }
+      #range_counter {
+        width: 35vw;
+      }
+}
+
+@media (max-width:785px) {
+    .container{
+        height: 70vh;
+        width: 45vw;
+
+     }
+     #Password_generator_space{
+        font-size: 1.2rem;
+        width:40vw;
+      }
+      #range_counter {
+        width: 40vw;
+      }
+}
+
+@media (max-width:680px) {
+    .container{
+        height: 70vh;
+        width: 50vw;
+
+     }
+     #Password_generator_space{
+        font-size: 1.2rem;
+        width:45vw;
+      }
+      #range_counter {
+        width: 45vw;
+      }
+}
+
+@media (max-width:612px) {
+    .container{
+        height: 74vh;
+        width: 75vw;
+
+     }
+     #Password_generator_space{
+        font-size: 1.2rem;
+        width:67vw;
+      }
+      #range_counter {
+        width: 67vw;
+      }
+}
+
+@media (max-width:440px) {
+    .container{
+        height: 74vh;
+        width: 87vw;
+
+     }
+     #Password_generator_space{
+        font-size: 1.2rem;
+        width:76vw;
+      }
+      #range_counter {
+        width: 76vw;
+      }
+}
+@media (max-width:356px) {
+    .container{
+        height: 70vh;
+        width: 92vw;
+
+     }
+     #Password_generator_space{
+        font-size: 1.1rem;
+        width:80vw;
+      }
+      #range_counter {
+        width: 80vw;
+      }
+}
+
+@media (max-width:330px) {
+    .container{
+        height: 70vh;
+        width: 95vw;
+
+     }
+     #Password_generator_space{
+        font-size: 1.1rem;
+        width:81vw;
+      }
+      #range_counter {
+        width: 81vw;
+      }
+      .password_strength {
+        margin-left: 1.4rem;
+        font-size: 1.1rem;
+        margin-top: 1.2rem;
+}
+}
