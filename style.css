@@ -122,7 +122,10 @@ body {
     border-radius: 36px;
 }
 
-.options .left_options:first-child {
+#setting_values #Lowercase{
+     pointer-events: none;
+}
+#setting_values #none{
     pointer-events: none;
 }
 
