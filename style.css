@@ -125,7 +125,8 @@ body {
 #setting_values #Lowercase{
      pointer-events: none;
 }
- #none{
+
+input[type="checkbox"]:checked + label{
     pointer-events: none;
 }
 
